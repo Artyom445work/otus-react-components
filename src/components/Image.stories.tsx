@@ -12,6 +12,6 @@ const Template: React.FC<ImageProps> = (args) => <Image {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-    src: '/img/test-image.png', // Путь к изображению
+    src: './img/test-image.png', // Путь к изображению
     alt: 'Пример изображения',
 };

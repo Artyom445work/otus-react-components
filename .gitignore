@@ -3,3 +3,4 @@ node_modules
 dist
 stories
 coverage
+storybook-static
